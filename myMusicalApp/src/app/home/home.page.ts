@@ -7,6 +7,24 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+    primary_products = [
+        {
+            name: 'Hand Wash',
+            imagen: 'assets/images/handwash.png'
+        },
+         {
+            name: 'Dish Washing Up',
+            imagen: 'assets/images/dishwashingup.png'
+        },
+         {
+            name: 'Floor Cleaner',
+            imagen: 'assets/images/floorcleaner.png'
+        },
+        {
+            name: 'Floor Cleaner',
+            imagen: 'assets/images/antibacterialwipes.png'
+        }
+    ]
+  //constructor() {}
 
 }
