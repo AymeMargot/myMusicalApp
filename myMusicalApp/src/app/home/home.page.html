@@ -12,7 +12,8 @@
     <ion-row>
         <ion-col size="6" *ngFor="let product of primary_products">
             <ion-card>
-                <ion-img [scr]=primary_products.imagen></ion-img>
+                <ion-img [src]=product.imagen></ion-img>
+                <ion-label>product.name</ion-label>
             </ion-card>
         </ion-col>
   </ion-row>
